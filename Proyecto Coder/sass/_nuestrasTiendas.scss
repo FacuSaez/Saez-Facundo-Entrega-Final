@@ -1,0 +1,60 @@
+main{
+    div{
+        h1{
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        text-decoration: none;
+        font-family: 'Bruno Ace SC', cursive;
+        }
+    }
+    .info{
+        display: flex;
+        @include mobile($media:600px){
+            display: block;
+        }
+        .mapa{
+            @include mobile($media:600px){
+                display: flex;
+                justify-content: center;
+            }
+            iframe{
+                @include mobile($media:600px){
+                    width: 20rem;
+                    height: 180;
+                }
+            }
+        }
+        
+        .Infoubi{
+            margin-left: 7.4rem;
+            margin-right: 4.6rem;
+            margin-top: 5.5rem;
+            @include mobile($media:600px){
+                margin-left: 3.4rem;
+                margin-right: 2.6rem;
+                margin-top: 2.5rem;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                @include mobile($media:600px){
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            p{
+                @include mobile($media:600px){
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            h2{
+                @include mobile($media:600px){
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}

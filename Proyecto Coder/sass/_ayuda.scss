@@ -1,0 +1,29 @@
+main{
+    h1{
+        text-align: center;
+        margin-top: 1rem;
+        font-family: 'Bruno Ace SC', cursive;
+        color: #2b2c31;
+        font-size: 2.3rem;
+    }
+    .tituloAyuda{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    .olLista{
+        display: flex;
+        justify-content: center;
+    }
+    .talles{
+        text-align: center;
+        margin-top: 0.5rem;
+        img{
+            width: 40%;
+            height: 40%;
+            @include mobile($media:600px){
+                width: 300px;
+                height: 400px;
+            }
+        }
+    }
+}

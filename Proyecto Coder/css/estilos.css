@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron", sans-serif;
+}
+
+main {
+  background-color: white;
+}
+main .carousel-item {
+  margin-left: 23rem;
+}
+@media screen and (max-width: 600px) {
+  main .carousel-item {
+    margin-left: 6rem;
+  }
+}
+main .carousel-control-prev-icon {
+  background-color: black;
+  border-radius: 1rem;
+}
+main .carousel-control-next-icon {
+  background-color: black;
+  border-radius: 1rem;
+}
+main section .video {
+  background-color: #000000;
+  margin-top: 25px;
+}
+main section .video video {
+  width: 50rem;
+  margin-left: 235px;
+}
+@media screen and (max-width: 600px) {
+  main section .video video {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+main section .TituloIndex {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  font-family: "Bruno Ace SC", cursive;
+}
+main .quienesSomos {
+  height: 14rem;
+  width: 100%;
+  margin-bottom: -1rem;
+  background-color: #343a40;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
+}
+@media screen and (max-width: 600px) {
+  main .quienesSomos {
+    background-color: #f4f4e1;
+    height: 16rem;
+    width: 100%;
+    margin-bottom: -1rem;
+    background-color: #343a40;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
+  }
+}
+main .quienesSomos h2 {
+  text-align: center;
+  font-family: "Bruno Ace SC", cursive;
+  color: white;
+}
+main .quienesSomos p {
+  color: white;
+  text-align: center;
+}
+
+main section .Cards {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.7rem;
+}
+@media screen and (max-width: 600px) {
+  main section .Cards {
+    flex-direction: column;
+  }
+}
+main section .Cards .Contenedorimg {
+  height: 500%;
+}
+main section .Cards img {
+  width: 13rem;
+  height: 13rem;
+}
+@media screen and (max-width: 600px) {
+  main section .Cards img {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  main section .Cards .divImgMQ {
+    display: flex;
+    justify-content: center;
+  }
+}
+main section .nombreBuzo {
+  text-align: center;
+  margin-top: -2.5rem;
+}
+main section .Contenedorbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section .Contenedorbutton a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border-style: none;
+}
+main section .Contenedorbutton .BotonDestacado {
+  display: flex;
+  margin: 0.312rem;
+  padding: 0.1rem;
+  background-color: white;
+}
+main section .nombreBuzoDos {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.625rem;
+}
+
+footer .ulFooter {
+  margin: 2rem;
+  padding: 0rem 3rem 0rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+footer .ulFooter .logoRedes img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 1.3rem;
+  list-style: none;
+}
+footer .contenedorDerechos {
+  display: flex;
+  justify-content: end;
+  justify-content: center;
+}
+
+header {
+  background-color: #edede9;
+  height: 3.438rem;
+}
+header #navbarNav {
+  text-align: center;
+}
+header .nav-item {
+  margin-right: 170px;
+  font-size: 16px;
+}
+@media screen and (max-width: 600px) {
+  header .nav-item {
+    background-color: #6c757d;
+    width: 100%;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    z-index: 99;
+  }
+}
+header .nav-item:hover {
+  border: solid black 1px;
+  border-radius: 50px;
+  transition: all 0.2s;
+}
+
+main .imagenLogo {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.9rem;
+}
+main .botonesPrendas {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 1.2rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media screen and (max-width: 600px) {
+  main .botonesPrendas {
+    margin: 1rem 0px 0px 0px;
+    padding: 0px;
+  }
+}
+main .botonesPrendas a {
+  text-decoration: none;
+  color: white;
+  border-radius: 0.6rem;
+  background-color: black;
+  padding: 0.375rem;
+}
+@media screen and (max-width: 600px) {
+  main .botonesPrendas a {
+    display: flex;
+    margin: 0px;
+  }
+}
+main .h2Shop h2 {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-family: "Bruno Ace SC", cursive;
+}
+
+main div h1 {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  font-family: "Bruno Ace SC", cursive;
+}
+main .info {
+  display: flex;
+}
+@media screen and (max-width: 600px) {
+  main .info {
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  main .info .mapa {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  main .info .mapa iframe {
+    width: 20rem;
+    height: 180;
+  }
+}
+main .info .Infoubi {
+  margin-left: 7.4rem;
+  margin-right: 4.6rem;
+  margin-top: 5.5rem;
+}
+@media screen and (max-width: 600px) {
+  main .info .Infoubi {
+    margin-left: 3.4rem;
+    margin-right: 2.6rem;
+    margin-top: 2.5rem;
+  }
+}
+main .info .Infoubi a {
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  main .info .Infoubi a {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  main .info .Infoubi p {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  main .info .Infoubi h2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.flex form {
+  padding: 50px 55px;
+  box-shadow: 0 0 20px #000000;
+  border-radius: 20px;
+  text-align: center;
+  width: 450px;
+}
+.flex form h1 {
+  font-family: "Bruno Ace SC", cursive;
+  color: #2b2c31;
+  font-size: 2.3rem;
+}
+.flex form label {
+  color: #2b2c31;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.flex form input textarea {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: #f2f3f2;
+  border: 2px solid #F0FAF1;
+  color: #2b2c31;
+}
+.flex form .formulario {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.flex form .formularioPrivacidad {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.flex form .formularioPrivacidad a {
+  color: #2b2c31;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 15px;
+}
+.flex form .btn {
+  font-size: 1rem;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+  background-color: #51D94C;
+  box-shadow: 0 0 20px green;
+  cursor: pointer;
+}
+.flex form .btn:hover {
+  background-color: #50e04b;
+}
+
+main h1 {
+  text-align: center;
+  margin-top: 1rem;
+  font-family: "Bruno Ace SC", cursive;
+  color: #2b2c31;
+  font-size: 2.3rem;
+}
+main .tituloAyuda {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+main .olLista {
+  display: flex;
+  justify-content: center;
+}
+main .talles {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+main .talles img {
+  width: 40%;
+  height: 40%;
+}
+@media screen and (max-width: 600px) {
+  main .talles img {
+    width: 300px;
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

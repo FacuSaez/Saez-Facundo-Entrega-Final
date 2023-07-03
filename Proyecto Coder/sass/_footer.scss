@@ -1,0 +1,23 @@
+footer{
+    .ulFooter{
+        margin: 2rem;
+        padding: 0rem 3rem 0rem 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        .logoRedes{
+            img{
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    margin-left: 1.3rem;
+                    list-style: none;   
+            }
+        }
+    }
+    .contenedorDerechos{
+        display: flex;
+        justify-content: end;
+        justify-content: center;
+    }
+}

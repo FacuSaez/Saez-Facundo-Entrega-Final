@@ -1,0 +1,57 @@
+main{
+    section{
+        .Cards{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 1.7rem;
+            @include mobile($media:600px){
+                flex-direction: column;
+            }
+            .Contenedorimg{
+                height: 500%;
+            }
+            img{
+                width: 13rem;
+                height: 13rem;
+                @include mobile($media:600px){
+                    width: 20rem;
+                    height: 20rem;
+                }
+                }
+                .divImgMQ{
+                    @include mobile($media:600px){
+                        display: flex;
+                        justify-content: center;
+                }
+            }
+            }
+            .nombreBuzo{
+            text-align: center;
+            margin-top: -2.5rem;
+            }
+            .Contenedorbutton{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                text-decoration: none;
+                color: black;
+                background-color: rgb(255, 255, 255);
+                border-style: none;
+            }
+            .BotonDestacado{
+                display: flex;
+                margin: 0.312rem;
+                padding: .1rem;
+                background-color: #FFFF;
+            }
+        }
+        .nombreBuzoDos{
+            display: flex;
+            justify-content: center;
+            margin-top: 0.625rem;
+        }
+    }
+}

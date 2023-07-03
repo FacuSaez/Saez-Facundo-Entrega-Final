@@ -1,0 +1,38 @@
+main{
+    .imagenLogo{
+        display: flex;
+        justify-content: center;
+        margin-top: .9rem;
+    }
+    .botonesPrendas{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin-top: 1.2rem;
+        font-size: 1rem;
+        margin-left: 1rem;
+        @include mobile($media:600px){
+            margin: 1rem 0px 0px 0px;
+            padding: 0px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            border-radius: 0.6rem;
+            background-color: black;
+            padding: 0.375rem;
+            @include mobile($media:600px){
+                display: flex;
+                margin: 0px;
+            }
+        }
+    }
+    .h2Shop{
+        h2{
+            text-align: center;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            font-family: 'Bruno Ace SC', cursive;
+        }
+    }
+}

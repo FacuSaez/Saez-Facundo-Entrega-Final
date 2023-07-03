@@ -1,0 +1,23 @@
+header{
+        background-color: #edede9;
+        height: 3.438rem;
+        #navbarNav{
+            text-align: center;
+        }
+        .nav-item{
+            margin-right: 170px;
+            font-size: 16px;
+            @include mobile($media:600px){
+                background-color: #6c757d;
+                width: 100%;
+                border-radius: 50px;
+                margin-bottom: 10px;
+                z-index: 99;
+        }
+        &:hover{
+            border: solid black 1px;
+            border-radius: 50px;
+            transition: all .2s;
+        }
+    }
+}
